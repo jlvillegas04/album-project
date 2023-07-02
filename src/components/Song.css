@@ -1,0 +1,46 @@
+.album {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.album__img {
+  flex-shrink: 0;
+  width: 220px;
+  height: 220px;
+  margin-right: 20px;
+  border-radius: 15px 0 0 15px;
+}
+
+.album__info {
+  flex-grow: 1;
+}
+
+.artist__name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.artist__album,
+.song__year {
+  margin: 5px 0;
+}
+
+.album__genre {
+  margin-top: 10px;
+}
+
+.album__like {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
